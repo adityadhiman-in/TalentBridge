@@ -8,6 +8,9 @@ const Header = () => {
         <Link>
           <h1 className="font-medium">TalentBridge</h1>
         </Link>
+        <Link>
+          <h1>Jobs</h1>
+        </Link>
       </nav>
     </div>
   );
