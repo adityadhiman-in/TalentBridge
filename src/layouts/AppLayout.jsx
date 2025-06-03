@@ -10,6 +10,9 @@ const AppLayout = () => {
         <Header />
         <Outlet />
       </main>
+      <footer className="px-1 py-2 flex items-center justify-center">
+        Made with by ❤️ Aditya Dhiman
+      </footer>
     </div>
   );
 };
