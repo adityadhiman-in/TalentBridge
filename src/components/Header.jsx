@@ -13,10 +13,12 @@ const Header = () => {
     <div>
       <nav className="py-4 flex justify-around items-center">
         <Link>
-          <h1 className="font-medium">TalentBridge</h1>
+          <h1 className="text-2xl font-bold">TalentBridge</h1>
         </Link>
         <Link>
-          <Button variant="outline">Login</Button>
+          <Button className="cursor-pointer" variant="outline" size="lg">
+            Login
+          </Button>
         </Link>
         {/* 
         <SignedOut>
