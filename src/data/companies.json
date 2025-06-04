@@ -1,0 +1,47 @@
+[
+  {
+    "name": "netflix",
+    "path": "/companies/netflix.png",
+    "id": 1
+  },
+  {
+    "name": "meta",
+    "path": "/companies/meta.png",
+    "id": 2
+  },
+  {
+    "name": "flipkart",
+    "path": "/companies/flipkart.png",
+    "id": 3
+  },
+  {
+    "name": "nvdia",
+    "path": "/companies/nvdia.png",
+    "id": 4
+  },
+  {
+    "name": "ibm",
+    "path": "/companies/ibm.png",
+    "id": 5
+  },
+  {
+    "name": "jiosavan",
+    "path": "/companies/jiosavan.png",
+    "id": 6
+  },
+  {
+    "name": "spotify",
+    "path": "/companies/spotify.png",
+    "id": 7
+  },
+  {
+    "name": "zomato",
+    "path": "/companies/zomato.png",
+    "id": 8
+  },
+  {
+    "name": "google",
+    "path": "/companies/google.png",
+    "id": 9
+  }
+]

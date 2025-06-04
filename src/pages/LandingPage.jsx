@@ -1,6 +1,12 @@
 import { Button } from "@/components/ui/button";
 import React from "react";
 import { Link } from "react-router-dom";
+import companies from "../data/companies.json";
+import {
+  CarouselItem,
+  Carousel,
+  CarouselContent,
+} from "@/components/ui/carousel";
 
 const LandingPage = () => {
   return (
@@ -26,6 +32,24 @@ const LandingPage = () => {
             </Button>
           </Link>
         </div>
+      </section>
+
+      <section>
+        <Carousel className="w-full max-w-sm">
+          <CarouselContent>
+            {companies.map(({ name, id, path }) => {
+              return (
+                <CarouselItem key={id} className="basic-1/3 lg:basis-1/6">
+                  <img
+                    src={path}
+                    alt={name}
+                    className="h-9 sm:h-14 object-contain"
+                  />
+                </CarouselItem>
+              );
+            })}
+          </CarouselContent>
+        </Carousel>
       </section>
     </main>
   );
