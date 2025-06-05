@@ -35,6 +35,7 @@ const LandingPage = () => {
       </section>
 
       <section>
+        <h1>Top Recruiters </h1>
         <Carousel className="w-full max-w-sm">
           <CarouselContent>
             {companies.map(({ name, id, path }) => {
