@@ -1,0 +1,42 @@
+[
+  {
+    "question": "What is TalentBridge?",
+    "answer": "TalentBridge is a modern job portal that connects job seekers with companies looking to hire skilled talent. We make hiring faster, smarter, and more transparent."
+  },
+  {
+    "question": "How do I create an account as a job seeker?",
+    "answer": "You can sign up using your email or social login. Once registered, complete your profile and upload your resume to start applying for jobs."
+  },
+  {
+    "question": "How can companies post job openings?",
+    "answer": "Companies can register as employers, verify their profiles, and use our dashboard to post job openings, manage applications, and communicate with candidates."
+  },
+  {
+    "question": "Is it free to use TalentBridge?",
+    "answer": "Yes, job seekers can use TalentBridge completely free. Employers may access limited features for free and opt for premium plans for advanced hiring tools."
+  },
+  {
+    "question": "Can I apply for multiple jobs at once?",
+    "answer": "Yes, you can apply to as many relevant job listings as you'd like. We encourage tailoring your application for each job to improve your chances."
+  },
+  {
+    "question": "What makes TalentBridge different from other job portals?",
+    "answer": "TalentBridge focuses on quality over quantity, offering verified jobs, smart filtering, skill-based matching, and real-time application tracking for both parties."
+  },
+  {
+    "question": "How are job matches determined?",
+    "answer": "Our algorithm matches candidates and job listings based on skills, experience, job preferences, and role requirements — ensuring the best fit for both."
+  },
+  {
+    "question": "How do I know if my application is seen by the employer?",
+    "answer": "You can track the status of your applications from your dashboard. Employers can also directly message shortlisted candidates for interviews."
+  },
+  {
+    "question": "Can companies search for candidate profiles?",
+    "answer": "Yes, verified companies can search, filter, and shortlist candidates based on criteria like skills, experience, education, and availability."
+  },
+  {
+    "question": "Is my data safe on TalentBridge?",
+    "answer": "Absolutely. We prioritize user privacy and use secure encryption to protect all personal and professional information shared on the platform."
+  }
+]

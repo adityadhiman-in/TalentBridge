@@ -2,6 +2,13 @@ import { Button } from "@/components/ui/button";
 import React from "react";
 import { Link } from "react-router-dom";
 import companies from "../data/companies.json";
+import faqs from "../data/faq.json";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
 import {
   CarouselItem,
   Carousel,
@@ -77,6 +84,18 @@ const LandingPage = () => {
             <p>Post Jobs, and Hire Talent and manage the candidates</p>
           </CardContent>
         </Card>
+      </section>
+      <section className="p-10">
+        <Accordion type="single" collapsible>
+          {faqs.map((faq, index) => {
+            return (
+              <AccordionItem key={index} value={`index-${index}`}>
+                <AccordionTrigger>{faq.question}</AccordionTrigger>
+                <AccordionContent>{faq.answer}</AccordionContent>
+              </AccordionItem>
+            );
+          })}
+        </Accordion>
       </section>
     </main>
   );
