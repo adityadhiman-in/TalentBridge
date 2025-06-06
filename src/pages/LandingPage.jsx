@@ -7,7 +7,9 @@ import {
   Carousel,
   CarouselContent,
 } from "@/components/ui/carousel";
+import Autoplay from "embla-carousel-autoplay";
 
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 const LandingPage = () => {
   return (
     <main className="flex flex-col gap-10 sm:gap-20 sm:py-20">
@@ -35,22 +37,46 @@ const LandingPage = () => {
       </section>
 
       <section>
-        <h1>Top Recruiters </h1>
-        <Carousel className="w-full max-w-sm">
+        <h1 className="text-center text-4xl font-bold pt-10 pb-10">
+          Top Recruiters{" "}
+        </h1>
+        <Carousel
+          plugins={[Autoplay({ delay: 2000, stopOnInteraction: true })]}
+          className="w-full py-10"
+        >
           <CarouselContent>
             {companies.map(({ name, id, path }) => {
               return (
-                <CarouselItem key={id} className="basic-1/3 lg:basis-1/6">
+                <CarouselItem key={id} className="basis-1/3 lg:basis-1/6 ">
                   <img
                     src={path}
                     alt={name}
-                    className="h-9 sm:h-14 object-contain"
+                    className="h-9 sm:h-14 object-contain mx-auto"
                   />
                 </CarouselItem>
               );
             })}
           </CarouselContent>
         </Carousel>
+      </section>
+      <img className="p-10 rounded-4xl" src="/images/Banner.png"></img>
+      <section className="grid grid-cols-1 md:grid-cols-2 gap-5 p-10">
+        <Card>
+          <CardHeader>
+            <CardTitle className="text-2xl">For the Job Seekers</CardTitle>
+          </CardHeader>
+          <CardContent>
+            <p>Search and apply for jobs and track application and more</p>
+          </CardContent>
+        </Card>
+        <Card>
+          <CardHeader>
+            <CardTitle className="text-2xl">For Companies</CardTitle>
+          </CardHeader>
+          <CardContent>
+            <p>Post Jobs, and Hire Talent and manage the candidates</p>
+          </CardContent>
+        </Card>
       </section>
     </main>
   );
