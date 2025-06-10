@@ -11,7 +11,7 @@ const AppLayout = () => {
         <Outlet />
       </main>
       <footer className="px-1 py-2 flex items-center justify-center">
-        Made with by ❤️ Aditya Dhiman
+        <p>Made with by ❤️ Aditya Dhiman | Copyright © TalentBridge 2025</p>
       </footer>
     </div>
   );
